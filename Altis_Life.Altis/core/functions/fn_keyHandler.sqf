@@ -246,6 +246,5 @@ switch (_code) do {
 			};
 		};
 	};
-};
 
 _handled;
