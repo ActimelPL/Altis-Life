@@ -65,7 +65,7 @@ switch (_vehicle) do
 			case 1: {_color = "Black";};
 			case 2: {_color = "Silver";};
 			case 3: {_color = "Orange";};
-			case 4: {_color = "Policja";};
+			case 4: {_color = "Cop";};
 		};
 	};
 	
