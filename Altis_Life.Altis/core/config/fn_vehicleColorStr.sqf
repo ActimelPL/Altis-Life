@@ -16,15 +16,15 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Czerwony";};
-			case 1: {_color = "Żółty";};
-			case 2: {_color = "Biały";};
-			case 3: {_color = "Niebieski";};
-			case 4: {_color = "Ciemny czerwony";};
-			case 5: {_color = "Biało - niebieski"};
-			case 7: {_color = "Czarny"};
+			case 0: {_color = "Red";};
+			case 1: {_color = "Yellow";};
+			case 2: {_color = "White";};
+			case 3: {_color = "Blue";};
+			case 4: {_color = "Dark Red";};
+			case 5: {_color = "Blue / White"};
+			case 6: {_color = "Black"};
+			case 7: {_color = "Black"};
 			case 8: {_color = "Taxi"};
-			Case 9: [_color = "Policja #1";};
 		};
 	};
 	
