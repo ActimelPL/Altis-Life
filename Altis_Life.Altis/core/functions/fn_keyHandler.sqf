@@ -145,7 +145,26 @@ switch (_code) do {
 		
 		if(!_alt && !_ctrlKey) then { [] call life_fnc_radar; };
 	};
-	
+	// Shift B - Barrier Menu
+	case 48: { 
+		if(_shift && playerSide == west) then {   
+			if(useBarrier == 1) then {
+				player removeAction placeCone;
+				player removeAction placeBarrier;
+				player removeAction removeCone;
+				player removeAction removeBarrier;
+				player removeAction cancelBarrier;
+				player removeAction header;
+				[] execVM "core\medical\barriers\barriermenu.sqf";  };};
+		if(_shift && playerSide == independent) then {
+				player removeAction placeCone;
+				player removeAction placeBarrier;
+				player removeAction removeCone;
+				player removeAction removeBarrier;
+				player removeAction cancelBarrier;
+				player removeAction header;
+			[] execVM "core\medical\barriers\barriermenu.sqf";  };};
+	};
 	//Y Player Menu
 	case 21: {
 		if(!_alt && !_ctrlKey && !dialog) then {
